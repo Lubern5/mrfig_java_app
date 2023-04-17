@@ -28,8 +28,10 @@ agent any
 
             steps{
                script{
-
-                   mvnIntegrationTest()
+                   tools{
+                       maven 'maven'
+                       jdk 'jdk'{
+    
                 }
             }
         }
