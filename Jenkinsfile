@@ -28,9 +28,9 @@ agent any
 
             steps{
                script{
-                   tools{
+                   tools
                        maven 'maven'
-                       jdk 'jdk'{
+                       jdk 'jdk'
     
                 }
             }
