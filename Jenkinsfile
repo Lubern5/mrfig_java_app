@@ -5,8 +5,8 @@ agent any
 
     
     tools {
-        maven 'localMaven'
-        jdk 'localJdk'
+        maven 'maven'
+        jdk 'jdk'
     }
     
     stages{
