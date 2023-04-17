@@ -29,7 +29,7 @@ agent any
             steps{
                script{
                    
-                   mvnIntegrationTest.groovy()
+                   mvnIntegrationTest()
     
                 }
             }
