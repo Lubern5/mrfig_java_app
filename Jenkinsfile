@@ -1,9 +1,14 @@
 @Library('my-shared-library') _
 
 pipeline{
+agent any
 
-    agent any
-
+    
+    tools {
+        maven 'localMaven'
+        jdk 'localJdk'
+    }
+    
     stages{
 
         stage('Git Checkout'){
