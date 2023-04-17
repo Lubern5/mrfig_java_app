@@ -28,9 +28,8 @@ agent any
 
             steps{
                script{
-                   tools
-                       maven 'maven'
-                       jdk 'jdk'
+                   
+                   mvnIntegrationTest.groovy()
     
                 }
             }
